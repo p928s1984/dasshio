@@ -20,10 +20,10 @@
     "timeout": 20,
     "buttons": [
       {
-        "name": "null",
-        "address": "null",
-        "domain": "",
-        "service": "",
+        "name": "button",
+        "address": "78:E1:03:18:A4:9B",
+        "domain": "script",
+        "service": "abcs",
         "service_data": ""
       }
     ]
