@@ -103,9 +103,9 @@ stdoutHandler.setFormatter(logFormatter)
 logger.addHandler(stdoutHandler)
 
 # Read config file
-logger.info("Reading config file: /data/options.json")
+logger.info("Reading config file: /options.json")
 
-with open(path + "/data/options.json", mode="r") as data_file:
+with open(path + "/options.json", mode="r") as data_file:
     config = json.load(data_file)
 timeout = int(config["timeout"]) if "timeout" in config else 10
 request_timeout_secs = int(config["request_timeout_secs"]) if "request_timeout_secs" in config else 2
