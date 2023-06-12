@@ -11,6 +11,7 @@ RUN pip3 install -r /tmp/requirements.txt
 
 # Copy data for add-on
 COPY dasshio.py /
+COPY options.json /
 
 # Build arugments
 ARG BUILD_DATE
